@@ -1,0 +1,31 @@
+.todo-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 20px;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+    outline: 0;
+}
+
+.completedStyle {
+    font-style: italic;
+    color: #cdcdcd;
+    text-decoration: line-through;
+    margin-top:0;
+  };
+  .todo {
+    margin-top:0;
+  }
